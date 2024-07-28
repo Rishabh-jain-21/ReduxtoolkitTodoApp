@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Todos from "./Components/Todos";
+import AddTodo from "./Components/AddTodos";
+import styled from "styled-components";
 
-function App() {
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+`;
+
+const Title = styled.h1`
+  color: #333;
+`;
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Title>Learn Redux Tool Kit:</Title>
+      <AddTodo />
+      <Todos />
+    </Container>
   );
-}
+};
 
 export default App;
