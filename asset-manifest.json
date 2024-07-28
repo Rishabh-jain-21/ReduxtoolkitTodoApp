@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ReduxtoolkitTodoApp/static/css/main.e6c13ad2.css",
+    "main.js": "/ReduxtoolkitTodoApp/static/js/main.6445f4b0.js",
+    "index.html": "/ReduxtoolkitTodoApp/index.html",
+    "main.e6c13ad2.css.map": "/ReduxtoolkitTodoApp/static/css/main.e6c13ad2.css.map",
+    "main.6445f4b0.js.map": "/ReduxtoolkitTodoApp/static/js/main.6445f4b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.6445f4b0.js"
+  ]
+}
